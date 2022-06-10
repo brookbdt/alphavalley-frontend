@@ -1,10 +1,12 @@
+import Image from "next/image";
+
 export default function TestimonialsMiddle() {
 	return (
 		<section className="bg-indigo-800">
 			<div className="max-w-7xl mx-auto md:grid md:grid-cols-2 md:px-6 lg:px-8">
 				<div className="py-12 px-4 sm:px-6 md:flex md:flex-col md:py-16 md:pl-0 md:pr-10 md:border-r md:border-indigo-900 lg:pr-16">
 					<div className="md:flex-shrink-0">
-						<img
+						<Image
 							className="h-12"
 							src="https://tailwindui.com/img/logos/tuple-logo-indigo-300.svg"
 							alt="Tuple"
@@ -43,7 +45,7 @@ export default function TestimonialsMiddle() {
 				</div>
 				<div className="py-12 px-4 border-t-2 border-indigo-900 sm:px-6 md:py-16 md:pr-0 md:pl-10 md:border-t-0 md:border-l lg:pl-16">
 					<div className="md:flex-shrink-0">
-						<img
+						<Image
 							className="h-12"
 							src="https://tailwindui.com/img/logos/workcation-logo-indigo-300.svg"
 							alt="Workcation"

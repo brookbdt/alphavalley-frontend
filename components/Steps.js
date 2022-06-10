@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Steps() {
 	return (
 		<section class="text-gray-600 body-font">
@@ -18,9 +20,9 @@ export default function Steps() {
 								<svg
 									fill="none"
 									stroke="currentColor"
-									stroke-linecap="round"
-									stroke-linejoin="round"
-									stroke-width="2"
+									strokeLinecap="round"
+									strokeLinejoin="round"
+									strokeWidth="2"
 									className="w-5 h-5"
 									viewBox="0 0 24 24"
 								>
@@ -43,9 +45,9 @@ export default function Steps() {
 								<svg
 									fill="none"
 									stroke="currentColor"
-									stroke-linecap="round"
-									stroke-linejoin="round"
-									stroke-width="2"
+									strokeLinecap="round"
+									strokeLinejoin="round"
+									strokeWidth="2"
 									className="w-5 h-5"
 									viewBox="0 0 24 24"
 								>
@@ -70,9 +72,9 @@ export default function Steps() {
 								<svg
 									fill="none"
 									stroke="currentColor"
-									stroke-linecap="round"
-									stroke-linejoin="round"
-									stroke-width="2"
+									strokeLinecap="round"
+									strokeLinejoin="round"
+									strokeWidth="2"
 									className="w-5 h-5"
 									viewBox="0 0 24 24"
 								>
@@ -95,9 +97,9 @@ export default function Steps() {
 								<svg
 									fill="none"
 									stroke="currentColor"
-									stroke-linecap="round"
-									stroke-linejoin="round"
-									stroke-width="2"
+									strokeLinecap="round"
+									strokeLinejoin="round"
+									strokeWidth="2"
 									className="w-5 h-5"
 									viewBox="0 0 24 24"
 								>
@@ -119,9 +121,9 @@ export default function Steps() {
 								<svg
 									fill="none"
 									stroke="currentColor"
-									stroke-linecap="round"
-									stroke-linejoin="round"
-									stroke-width="2"
+									strokeLinecap="round"
+									strokeLinejoin="round"
+									strokeWidth="2"
 									className="w-5 h-5"
 									viewBox="0 0 24 24"
 								>
@@ -139,7 +141,7 @@ export default function Steps() {
 							</div>
 						</div>
 					</div>
-					<img
+					<Image
 						className="lg:w-3/5 md:w-1/2 object-cover object-center rounded-lg md:mt-0 mt-12"
 						src="https://dummyimage.com/1200x500"
 						alt="step"
