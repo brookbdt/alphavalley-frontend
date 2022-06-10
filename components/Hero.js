@@ -11,14 +11,17 @@ export default function Hero() {
 							<Image
 								className="h-11 w-auto"
 								src="https://tailwindui.com/img/logos/workflow-mark.svg?color=indigo&shade=600"
-								alt="Workflow"
+                                alt="Workflow"
+                                height="4px"
+                                width="100%"
+								
 							/>
 						</div>
 						<div className="mt-20">
 							<div>
 								<a href="#" className="inline-flex space-x-4">
 									<span className="rounded bg-indigo-50 px-2.5 py-1 text-xs font-semibold text-indigo-600 tracking-wide uppercase">
-										What's new
+										What&apos;s new
 									</span>
 									<span className="inline-flex items-center text-sm font-medium text-indigo-600 space-x-1">
 										<span>Just shipped version 0.1.0</span>
@@ -142,6 +145,9 @@ export default function Hero() {
 								className="w-full rounded-md shadow-xl ring-1 ring-black ring-opacity-5 lg:h-full lg:w-auto lg:max-w-none"
 								src="https://tailwindui.com/img/component-images/top-nav-with-multi-column-layout-screenshot.jpg"
 								alt=""
+								width="100%"
+								height="100%"
+								
 							/>
 						</div>
 					</div>

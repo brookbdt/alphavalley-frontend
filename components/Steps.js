@@ -34,7 +34,9 @@ export default function Steps() {
 								<h2 className="font-medium title-font text-sm text-gray-900 mb-1 tracking-wider">
 									Project kick-off
 								</h2>
-								<p className="leading-relaxed">Agreement on terms of engagement</p>
+								<p className="leading-relaxed">
+									Agreement on terms of engagement
+								</p>
 							</div>
 						</div>
 						<div className="flex relative pb-12">
@@ -145,6 +147,9 @@ export default function Steps() {
 						className="lg:w-3/5 md:w-1/2 object-cover object-center rounded-lg md:mt-0 mt-12"
 						src="https://dummyimage.com/1200x500"
 						alt="step"
+						width="100%"
+						height="100%"
+						
 					/>
 				</div>
 			</div>

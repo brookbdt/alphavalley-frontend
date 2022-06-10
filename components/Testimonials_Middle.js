@@ -10,6 +10,9 @@ export default function TestimonialsMiddle() {
 							className="h-12"
 							src="https://tailwindui.com/img/logos/tuple-logo-indigo-300.svg"
 							alt="Tuple"
+							width="100%"
+							height="100%"
+							
 						/>
 					</div>
 					<blockquote className="mt-6 md:flex-grow md:flex md:flex-col">
@@ -30,7 +33,6 @@ export default function TestimonialsMiddle() {
 						</div>
 						<footer className="mt-8">
 							<div className="flex items-start">
-								
 								<div className="ml-4">
 									<div className="text-base font-medium text-white">
 										Judith Black
@@ -49,6 +51,10 @@ export default function TestimonialsMiddle() {
 							className="h-12"
 							src="https://tailwindui.com/img/logos/workcation-logo-indigo-300.svg"
 							alt="Workcation"
+							width="100%"
+							height="100%"
+							layout="responsive"
+							objectFit="contain"
 						/>
 					</div>
 					<blockquote className="mt-6 md:flex-grow md:flex md:flex-col">
@@ -69,7 +75,6 @@ export default function TestimonialsMiddle() {
 						</div>
 						<footer className="mt-8">
 							<div className="flex items-start">
-								
 								<div className="ml-4">
 									<div className="text-base font-medium text-white">
 										Joseph Rodriguez
